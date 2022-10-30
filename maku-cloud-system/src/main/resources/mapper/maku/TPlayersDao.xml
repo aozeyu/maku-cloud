@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="net.maku.maku.dao.TPlayersDao">
+
+    <resultMap type="net.maku.maku.entity.TPlayersEntity" id="tPlayersMap">
+        <result property="name" column="name"/>
+        <result property="id" column="id"/>
+        <result property="age" column="age"/>
+        <result property="salary" column="salary"/>
+        <result property="contperiod" column="contperiod"/>
+        <result property="image" column="image"/>
+        <result property="status" column="status"/>
+    </resultMap>
+
+</mapper>

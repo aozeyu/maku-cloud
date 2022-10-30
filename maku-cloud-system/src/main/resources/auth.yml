@@ -6,3 +6,4 @@ auth:
     - /auth/mobile
     - /upload/**
     - /
+    - http://localhost:8081/maku/**

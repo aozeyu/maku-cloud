@@ -35,6 +35,13 @@ spring:
             - Path=/message/**
           filters:
             - StripPrefix=1
+        - id: maku
+          uri: lb://maku
+          order: 4
+          predicates:
+            - Path=/maku/**
+          filters:
+            - StripPrefix=1
         - id: maku-cloud-new
           uri: lb://maku-cloud-new
           order: 999
